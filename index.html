@@ -7,16 +7,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <section class="aside-container">
-    <aside>
+  <section role="container for aside menu bar" class="aside-container">
+    <aside role="aside menu bar">
       <article class="profile">
         <div class="recruiter"></div>
         <div class="name">
           <h6>Zooey Deschanel</h6>
-          <img class="arrow" src="assets/down.svg" alt="">
+          <img class="arrow" src="assets/down.svg" alt="down arrown icon">
         </div>
       </article>
-      <article class="main-aside">
+      <article role="section for main aside options with links" class="main-aside">
         <h4>Main</h4>
         <a class="aside-link  house" href="#">HOME</a>
         <a class="aside-link job" href="#">JOBS</a>
@@ -24,7 +24,7 @@
         <a class="aside-link task" href="#">TASKS</a>
         <a class="aside-link calendar" href="#">CALENDAR</a>
       </article>
-      <article class="admin-aside">
+      <article role="section for admin" class="admin-aside">
         <h4>Admin</h4>
         <a class="aside-link users" href="#">USERS</a>
         <a class="aside-link locations" href="#">LOCATIONS</a>
@@ -32,7 +32,7 @@
         <a class="aside-link job-boards" href="#">JOB BOARDS</a>
         <a class="aside-link social" href="#">SOCIAL</a>
       </article>
-      <article class="category-aside">
+      <article role="section for different categories" class="category-aside">
         <h4 class="category">Categories</h4>
         <label class="admin style-checkbox">
           <input type="checkbox" checked="checked"/>Administrative
@@ -58,7 +58,7 @@
       <div class="top-style">
         <div class="style-icon menu-icon"></div>
       </div>
-      <div class="search-bar-container">
+      <div role="search area" class="search-bar-container">
         <div class="search-icon"></div>
         <input class="search-input" type="text" placeholder="Search for a job, task or resume">
       </div>
@@ -76,19 +76,19 @@
       <div class="job-service">
         <h1>Customer Service Representative</h1>
         <p class="location-job">
-          <img class="location-icon" src="assets/location2.svg" alt="">San Fransisco, CA - &nbsp
+          <img class="location-icon" src="assets/location2.svg" alt="location icon">San Fransisco, CA - &nbsp
           <a class="preview" href="#">Preview this post</a>
         </p>
       </div>
       <article class="top-buttons">
-          <button class="open"><img class="dot" src="assets/dot.svg" alt="">OPEN</button>
-          <button class="style-btn"><img class="ribbon btn-icon" src="assets/bookmark.svg" alt=""></button>
-          <button class="style-btn"><img class="edit btn-icon" src="assets/edit.svg" alt=""></button>
-          <button class="style-btn"><img class="trash btn-icon" src="assets/trash.svg" alt=""></button>
+          <button role="button" class="open"><img class="dot" src="assets/dot.svg" alt="dot icon">OPEN</button>
+          <button role="button" class="style-btn"><img class="ribbon btn-icon" src="assets/bookmark.svg" alt="bookmark icon"></button>
+          <button role="button" class="style-btn"><img class="edit btn-icon" src="assets/edit.svg" alt="edit pencil icon"></button>
+          <button role="button" class="style-btn"><img class="trash btn-icon" src="assets/trash.svg" alt="trash can icon"></button>
       </article>
     </article>
-    <nav class="dropdown">
-      <button class="drop-btn">See Menu</button>
+    <nav role="links" class="dropdown">
+      <button role="button" class="drop-btn">See Menu</button>
       <div class="top-nav">
         <a class="nav-links active" href="#">SUMMARY</a>
         <a class="nav-links" href="#">APPLICANTS</a>
@@ -123,13 +123,13 @@
               </div>
             </div>
           </div>
-          <button class="totals">TOTALS - Out of 5,231 views</button>
+          <button role="button" class="totals">TOTALS - Out of 5,231 views</button>
         </div>
           <div class="graph-stats">
             <div class="graph-container">
               <img class="graph" src="assets/bar-chart.png" alt="image of bar graph">
             </div>
-            <button class="graph-button">APPLICANTS/DAY</button>
+            <button role="button" class="graph-button">APPLICANTS/DAY</button>
           </div>
       </section>
       <section class="line-break">
@@ -142,43 +142,43 @@
           <table class="job-details">
             <thead>
               <tr class="t-header">
-                <td colspan="2" class="job-desc">JOB DESCRIPTION
-                  <button class="edit-button"><img class="edit2" src="assets/edit2.svg" alt="">EDIT</button>
+                <td role="table-header" colspan="2" class="job-desc">JOB DESCRIPTION
+                  <button role="button" class="edit-button"><img class="edit2" src="assets/edit2.svg" alt="">EDIT</button>
                 </td>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="job-detail-label">POSITION TITLE</td>
+                <td role="table-row-title" class="job-detail-label">POSITION TITLE</td>
                 <td class="job-detail-info">Customer Service Representative</td>
               </tr>
               <tr>
-                <td class="job-detail-label">LOCATION</td>
+                <td role="table-row-title" class="job-detail-label">LOCATION</td>
                 <td class="job-detail-info">San Fransisco, CA</td>
               </tr>
               <tr>
-                <td class="job-detail-label">EMPLOYMENT TYPE</td>
+                <td role="table-row-title" class="job-detail-label">EMPLOYMENT TYPE</td>
                 <td class="job-detail-info">Full-time</td>
               </tr>
               <tr>
-                <td class="job-detail-label">EXPERIENCE</td>
+                <td role="table-row-title" class="job-detail-label">EXPERIENCE</td>
                 <td class="job-detail-info">Mid-level</td>
               </tr>
               <tr>
-                <td class="job-detail-label">STATUS</td>
+                <td role="table-row-title" class="job-detail-label">STATUS</td>
                 <td class="job-detail-info">Open</td>
               </tr>
               <tr>
-                <td class="job-detail-label">DESCRIPTION</td>
+                <td role="table-row-title" class="job-detail-label">DESCRIPTION</td>
                 <td class="job-detail-info">The customer service representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce
                       customer service wait times while doing a backhand spring and eating a ham sandwich.</td>
               </tr>
               <tr>
-                <td class="job-detail-label ">HIRING LEAD</td>
+                <td role="table-row-title" class="job-detail-label ">HIRING LEAD</td>
                 <td class="job-detail-info hiring"><img class="hiring-lead" src="assets/recruiter.jpg" alt="image of recruiter">Ciara Bujanos</td>
               </tr>
               <tr>
-                <td class="job-detail-label">APPROVED SALARY</td>
+                <td role="table-row-title" class="job-detail-label">APPROVED SALARY</td>
                 <td class="job-detail-info salary">$58,000</td>
               </tr>
             </tbody>
@@ -186,27 +186,27 @@
         </section>
         <section class="social-container">
           <section class="social-btn-container">
-            <button class="facebook style-social">Post to Facebook</button>
-            <button class="twitter style-social">Post to Twitter</button>
-            <button class="linkedin style-social">Post to LinkedIn</button>
+            <button role="button" class="facebook style-social">Post to Facebook</button>
+            <button role="button" class="twitter style-social">Post to Twitter</button>
+            <button role="button" class="linkedin style-social">Post to LinkedIn</button>
           </section>
           <section class="link-container">
             <article class="link-job">
               <h3 class="header-section"><img class="style-small" src="assets/globe.svg" alt="icon of globe">Link to this job</h3>
               <p class="content">Chia waistcoat stumptown, before they sold out woke la croix +1 hexagon cat hoto this...</p>
-              <div><input class="link-input" type="text" value="http://loremipsum.dol/sitamet."><button class="copy-btn">Copy</button></div>
+              <div><input class="link-input" type="text" value="http://loremipsum.dol/sitamet."><button role="button" class="copy-btn">Copy</button></div>
             </article>
             <div class="line"></div>
             <article class="link-job">
               <h3 class="header-section"><img class="style-small" src="assets/floppy.svg" alt="icon of floppy disk">Use the Button Widget</h3>
               <p class="content">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-              <div><input class="link-input" type="text" value="<script text/javascript src=main"><button class="copy-btn">Copy</button></div>
+              <div><input class="link-input" type="text" value="<script text/javascript src=main"><button role="button" class="copy-btn">Copy</button></div>
             </article>
             <div class="line"></div>
             <article class="link-job">
               <h3 class="header-section"><img class="style-small" src="assets/plane.svg" alt="icon of paper plane">Upload Resumes by Email</h3>
               <p class="content">You can automatically upload multiple resumes to this job by emailing the address below.</p>
-              <button class="resume-btn">c.buj22@gmail.com</button>
+              <button role="button" class="resume-btn">c.buj22@gmail.com</button>
             </article>
           </section>
         </section>
