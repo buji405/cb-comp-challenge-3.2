@@ -1,5 +1,7 @@
 # cb-comp-challenge-3.2
 
+Live Link: https://buji405.github.io/cb-comp-challenge-3.2/
+
 My version of static comp 3
 ![screencapture-file-users-ciarabujanos-turing-mod1-cb-comp-challenge-3-2-index-html-1492613728599 1](https://cloud.githubusercontent.com/assets/18603030/25187064/3ca76858-24df-11e7-83bd-c12b92065ebb.jpg)
 
